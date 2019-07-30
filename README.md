@@ -3,3 +3,9 @@ This is a Code Institute lesson website, following along with a tutorial on buil
 
 ## Website link
 https://littleblue418.github.io/Code-Institute-Boostrap-exercise/
+
+## Built With 
+* [Bootstrap](https://getbootstrap.com/) 
+
+## Acknowledgments
+* [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
