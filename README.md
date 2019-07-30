@@ -9,3 +9,7 @@ https://littleblue418.github.io/Code-Institute-Boostrap-exercise/
 
 ## Acknowledgments
 * [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
+* [Photo by ELEVATE from Pexels](https://www.pexels.com/photo/brown-wooden-barrel-1267358/)
+
+
+
