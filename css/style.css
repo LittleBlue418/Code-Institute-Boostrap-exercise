@@ -1,0 +1,115 @@
+body {
+    font-family: 'Fira Code', monospace;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/barrel-beer-brewery-1267358.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/* Block Dividers */
+
+.block-divider {
+    width: 100px;
+    height: 7px;
+    border: 0;
+    background-color: #365D92;
+}
+
+.block-divider--short{
+    width: 50px;
+}
+
+/* Navbar */
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold; 
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin:25px;
+    color: #c7c7c7;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/* Buttons */
+
+.btn {
+    color: white;
+}
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    background-color: #429938; 
+    border-color: #429938;
+}
+
+.btn--cta:hover,
+.btn--cta:active,
+.btn--cta:focus,
+.btn--cta:active:focus {
+    background-color: #377E2E;
+    border-color: #377E2E;
+    color: white;
+}
+

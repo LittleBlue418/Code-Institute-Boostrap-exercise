@@ -10,40 +10,49 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
         integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Code:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a href="/" class="navbar-brand">Whiskey Drop</a>
+    <!-- Nav -->
+    <div class="container-fluid navalert-container">
+        <nav class="navbar navbar-dark navbar-expand-sm">
+            <a href="/" class="navbar-brand">Whiskey Drop</a>
 
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
-            <span class="navbar-toggler-icon"></span></button>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
+                <span class="navbar-toggler-icon"></span></button>
 
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whiskeys</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Irish</a>
-                        <a class="dropdown-item" href="#">Scotch</a>
-                        <a class="dropdown-item" href="#">Japanese</a>
-                        <a class="dropdown-item" href="#">American</a>
-                    </div>
-                </li>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Whiskeys</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Irish</a>
+                            <a class="dropdown-item" href="#">Scotch</a>
+                            <a class="dropdown-item" href="#">Japanese</a>
+                            <a class="dropdown-item" href="#">American</a>
+                        </div>
+                    </li>
 
-                <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
-            </ul>
-        </div>
-        <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
-            <a href="/login">Sign In / Sign Up</a>
-        </div>
-    </nav>
-    <article class="container mt-3">
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block">
+                <p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door!</i></p>
+                <a href="/login">Sign In / Sign Up</a>
+            </div>
+        </nav>
+    </div>
+    <!-- / nav -->
+
+    <!-- Alert 
+    <div class="container alert-container">
         <div class="row d-none d-sm-block">
             <div class="col-12">
                 <div class="alert alert-warning">
@@ -52,26 +61,36 @@
                 </div>
             </div>
         </div>
-        <!--Callout-->
-        <dive class="row">
+    </div>
+    /alert -->
+
+    <!--Callout-->
+
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
-                    <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <h1 class="jumbotron-header">The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider">
                     <p class="lead">Sign up today to stary receiving the world's best whiskeys every month.
                         <s class="d-none d-sm-inline">£19.99 </s>
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>First one is free!</mark></strong> </p>
-                    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign
+                    <button class="btn btn-lg btn--cta" data-toggle="modal" data-target="#signUpModal">Sign
                         Up!</button>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink
                             responsibly.</small></p>
                 </section>
             </div>
-        </dive>
-        <!--/.callout-->
-        <hr>
+        </div>
+    </div>
 
-        <!-- Quotes -->
+    <!--/.callout-->
+
+
+    <!-- Quotes -->
+    <div class="container quotes-container">
         <section class="quotes">
             <div class="row">
                 <div class="col-12 my-5">
@@ -109,10 +128,12 @@
 
             </div>
         </section>
-        <!--/.quotes-->
-        <hr>
+    </div>
+    <!--/.quotes-->
 
-        <!--Features-->
+
+    <!--Features-->
+    <div class="container features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 my-5">
@@ -149,10 +170,12 @@
                     </div>
                 </div>
             </div>
-            <!-- / features -->
         </section>
-    </article>
+    </div>
+    <!-- / features -->
 
+
+    <!-- Modal -->
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -168,13 +191,13 @@
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                anyone
                                 else.</small>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password"
-                                placeholder="Password">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
                         </div>
                         <div class="form-group">
                             <label for="repeatPassword">Repeat Password</label>
@@ -189,7 +212,9 @@
             </div>
         </div>
     </div>
+    <!-- / modal -->
 
+    <!-- Script -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -199,6 +224,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <!-- / script -->
 
 </body>
 
