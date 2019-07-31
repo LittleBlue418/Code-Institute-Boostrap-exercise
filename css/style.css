@@ -1,8 +1,27 @@
 body {
-    font-family: 'Fira Code', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
-.alert-container {}
+.container-wrapper {}
+
+.container-wrapper-blue {
+    background-color: #365D92;
+    color: white;
+}
+
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #84A7DD;
+    border-color: #84A7DD;
+    color: white;
+}
 
 .callout-container {
     height: 100vh;
@@ -32,6 +51,19 @@ body {
 
 .features-container {}
 
+/* Page headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+
 /* Block Dividers */
 
 .block-divider {
@@ -41,8 +73,16 @@ body {
     background-color: #365D92;
 }
 
-.block-divider--short{
-    width: 50px;
+.block-divider--brown{
+    width: 100px;
+    background-color: #7D6450;
+}
+
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */
@@ -65,6 +105,14 @@ body {
 
 .navbar .navbar-toggler {
     border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav {
+    font-weight: bold;
 }
 
 /* Jumbotron */
@@ -99,9 +147,13 @@ body {
 .btn--cta {
     font-weight: bold;
     border-radius: 23px;
-    width: 160px;
+    width: 180px;
     background-color: #429938; 
     border-color: #429938;
+}
+
+.btn-light {
+    color: black;
 }
 
 .btn--cta:hover,
