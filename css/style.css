@@ -63,6 +63,10 @@ body {
     margin-top: 0;
 }
 
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
 
 /* Block Dividers */
 
@@ -71,12 +75,18 @@ body {
     height: 7px;
     border: 0;
     background-color: #365D92;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
 
-.block-divider--brown{
+.block-divider--brown {
     width: 100px;
     background-color: #7D6450;
 }
+
+/* .block-divider--white {
+    background-color: white;
+} */
 
 /* Content containers */
 
@@ -165,3 +175,23 @@ body {
     color: white;
 }
 
+.features-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #365D92;
+}
