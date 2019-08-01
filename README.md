@@ -1,8 +1,8 @@
-# Code Institute - Bootstrap Exercise
-This is a Code Institute lesson website, following along with a tutorial on building a responsive website using Bootstrap. 
+# Code Institute - Whiskey Website
+This is a Code Institute lesson website, following along with a tutorial on building a responsive website using Bootstrap and then changing the Bootstrap default styling to make the page more unique. 
 
 ## Website link
-https://littleblue418.github.io/Code-Institute-Boostrap-exercise/
+https://littleblue418.github.io/Code-Institute-Whiskey-Website/
 
 ## Built With 
 * [Bootstrap](https://getbootstrap.com/) 
